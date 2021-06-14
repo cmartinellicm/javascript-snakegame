@@ -8,3 +8,4 @@ Project developed during 'SPTech Front-end Development Bootcamp' on [Digital Inn
 - Changed background and font color;
 - Added rounded border to canvas;
 - Added alert to pause game;
+- Added favicon to html

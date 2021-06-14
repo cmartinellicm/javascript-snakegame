@@ -42,7 +42,7 @@ function update(event) {
   if (event.keyCode == 39 && direction != "left") direction = "right";
   if (event.keyCode == 40 && direction != "up") direction = "down";
   // Pause game
-  if (event.keyCode == 32) alert("Game paused. Press ok to continue.");
+  if (event.keyCode == 32) alert("Game paused. Press ok to continue!");
 }
 
 function startGame() {
@@ -60,7 +60,7 @@ function startGame() {
   for (i = 1; i < snake.length; i++) {
     if (snake[0].x == snake[i].x && snake[0].y == snake[i].y) {
       clearInterval(jogo);
-      alert("Game Over :(");
+      alert("Game Over ☠︎");
     }
   }
 
