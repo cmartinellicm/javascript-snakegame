@@ -1,0 +1,9 @@
+body {
+  height: 95vh; /* vh = viewport height */
+  width: 95;
+  display: flex;
+  justify-content: center; /* alinha elementos horizontalmente centralizados */
+  align-items: center; /* alinha elementos verticalmente centralizados */
+  flex-direction: column;
+  color: rgb(4, 75, 4);
+}
