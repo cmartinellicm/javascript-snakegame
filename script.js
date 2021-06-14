@@ -26,7 +26,10 @@ function criarCobrinha() {
 
 function drawFood() {
   context.fillStyle = "red";
-  context.fillRect(food.x, food.y, box, box);
+  // context.fillRect(food.x, food.y, box, box);
+  context.beginPath();
+  context.arc(16 + food.x, 16 + food.y, box / 2, 0, Math.PI * 2, true);
+  context.fill();
 }
 
 document.addEventListener("keydown", update);

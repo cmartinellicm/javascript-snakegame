@@ -1,9 +1,17 @@
 body {
-  height: 95vh; /* vh = viewport height */
-  width: 95;
+  height: 95vh;
+  width: auto;
   display: flex;
-  justify-content: center; /* alinha elementos horizontalmente centralizados */
-  align-items: center; /* alinha elementos verticalmente centralizados */
+  justify-content: center; /* align elements horizontally on center */
+  align-items: center; /* align elements vertically on center */
   flex-direction: column;
-  color: rgb(4, 75, 4);
+  background-color: rgb(40, 40, 40);
+  color: rgb(200, 200, 200);
+  font-family: "Odibee Sans", cursive;
+  font-size: 2rem;
+}
+
+canvas {
+  border: 4px solid rgb(200, 200, 200);
+  border-radius: 5px;
 }
